@@ -1,16 +1,349 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="#"><img src="src/assets/img/logo.png" alt="LegalizePH"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#download">download</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#pricings">pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">contact</a>
+                  </li>
+                
+              </ul>
+            </div>
+        </div>
+          </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section id="hero">
+
+        <div class="container">
+
+            <div class="row main-hero-content">
+
+                    <div class="col-md-6">
+                        <h1>FIND THE RIGHT LAWYER TO DEFEND YOU</h1>
+                        <p>Find the best legal service providers near you with just few easy steps.</p>
+                        <div class="hero-buttons">
+                            <a href="#" class="btn btn-outline-primary btn-white">register</a>
+                            <a href="#" class="btn btn-outline-primary btn-white">try now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image-box">
+
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+     <!-- About section -->
+     <section id="about">
+
+        <div class="container">
+
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">about LegalizePH</h2>
+            </div>
+
+            <div class="row justify-content-center text-center mt-5">
+
+                <div class="col-md-4">
+                    <i class="fas fa-search fa-3x mb-2"></i>
+                    <h3>Filter-based Search Function</h3>
+                    <p>Optimize your searches by using the filter function to suit your preferences.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-gavel fa-3x mb-2"></i>
+                    <h3>appointment manager</h3><br>
+                    <p>Manage your appointments easier by using the appointment manager</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-calendar fa-3x mb-2"></i>
+                    <h3>Legal Services On-Demand</h3>
+                    <p>Find the best lawyers that offers the legal services that you need.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+     </section>
+
+     <!-- Feature section -->
+     <section id="features">
+
+        <div class="container">
+
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">app features</h2>
+            </div>
+
+            <div class="row mt-5">
+
+                <div class="col-md-4">
+                <div data-aos="fade-up">
+                    <div class="feature-block feature1">
+                        
+                        <h3 class="text-center">mobile friendly</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
+                            architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
+                            delectus, velit, temporibus consequatur voluptatibus a.</p>
+                    </div>
+                </div>
+                    <div class="feature-block mt-5">
+                        <img src="assets/img/featureicon2.png" alt="">
+                        <h3 class="text-center">security</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
+                            architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
+                            delectus, velit, temporibus consequatur voluptatibus a.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 device">
+                    <img src="assets/img/feature-device.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-block">
+                        <img src="assets/img/featureicon3.png" alt="">
+                        <h3 class="text-center">24/7 support</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
+                            architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
+                            delectus, velit, temporibus consequatur voluptatibus a.</p>
+                    </div>
+                    <div class="feature-block mt-5">
+                        <img src="assets/img/featureicon4.png" alt="">
+                        <h3 class="text-center">beautiful design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
+                            architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
+                            delectus, velit, temporibus consequatur voluptatibus a.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Download section -->
+    <section id="download">
+
+        <div class="container">
+
+                <div class="row download-title justify-content-center">
+                    <h2>download our app</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
+                        architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
+                        delectus, velit, temporibus consequatur voluptatibus a.</p>
+                    <div class="download-btns">
+                        <a href="#"><i class="fab fa-apple"></i> App Store</a>
+                        <a href="#"><i class="fab fa-android"></i> Play Store</a>
+                    </div>
+                </div>
+
+        </div>
+
+    </section> 
+    
+    
+    <!-- Pricing section -->
+    <section id="pricing">
+
+        <div class="container">
+
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">pricing plans</h2>
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md pricing-table">
+
+                    <div class="table-header text-center">
+                        <h4>basic</h4>
+                        <p>$25/month</p>
+                    </div>
+
+                    <div class="table-content">
+                        <ul>
+                            <li>free support</li>
+                            <li>20gb storage</li>
+                            <li>2 users</li>
+                            <li>2 email accounts</li>
+                        </ul>
+                    </div>
+
+                    <div class="table-footer text-center">
+                        <a href="#">order now</a>
+                    </div>
+
+                </div>
+
+                <div class="col-md pricing-table">
+
+                    <div class="table-header text-center">
+                        <h4>medium</h4>
+                        <p>$45/month</p>
+                        <img src="assets/img/sale-badge.png" alt="">
+                    </div>
+
+                    <div class="table-content">
+                        <ul>
+                            <li>free support</li>
+                            <li>20gb storage</li>
+                            <li>2 users</li>
+                            <li>2 email accounts</li>
+                        </ul>
+                    </div>
+
+                    <div class="table-footer text-center">
+                        <a href="#">order now</a>
+                    </div>
+
+                </div>
+
+                <div class="col-md pricing-table">
+
+                    <div class="table-header text-center">
+                        <h4>large</h4>
+                        <p>$125/month</p>
+                    </div>
+
+                    <div class="table-content">
+                        <ul>
+                            <li>free support</li>
+                            <li>20gb storage</li>
+                            <li>2 users</li>
+                            <li>2 email accounts</li>
+                        </ul>
+                    </div>
+
+                    <div class="table-footer text-center">
+                        <a href="#">order now</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> 
+
+
+    <!-- Contact section -->
+    <section id="contact">
+
+        <div class="container">
+
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">get in touch</h2>
+            </div>
+
+            <div class="row mt-5">
+
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Enter your name">
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Enter your email address">
+                                </div>
+                            </div>
+                            <div class="form-group mt-4">
+                                <textarea class="form-control" rows="10" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-contact mt-4">Send</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="address">
+                        <h3>Address</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatibus quae ea nihil 
+                            tempora nemo voluptatum praesentium soluta nam?</p>
+                    </div>
+                    <div class="contact-details">
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-mobile-alt"></i></span>+1 555 555 555</li>
+                            <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>272 Private 7530 Rd, Call, TX, 75933</li>
+                            <li><span class="fa-li"><i class="fas fa-paper-plane"></i></span>info@yourcompany.com</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section> 
+
+    <!-- Footer section -->
+    <footer id="footer">
+
+        <div class="container">
+
+            <div class="row d-flex flex-column align-items-center">
+
+                <div class="footer-logo">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="copyright text-center">
+                    <p>Copyright 2020</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+   
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
