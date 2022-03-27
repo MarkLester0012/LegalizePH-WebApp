@@ -106,15 +106,11 @@
             <div class="row mt-5">
 
                 <div class="col-md-4">              
-                    <div class="feature-block feature1">
-                        <div data-aos="fade-up">
-
-
+                    <div class="feature-block feature1">         
                         <h3 class="text-center">mobile friendly</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
                             architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
-                            delectus, velit, temporibus consequatur voluptatibus a.</p>
-                            </div>
+                            delectus, velit, temporibus consequatur voluptatibus a.</p>               
                     </div>    
                     <div class="feature-block mt-5">
                         <img src="assets/img/featureicon2.png" alt="">
