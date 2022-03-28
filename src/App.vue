@@ -278,14 +278,13 @@
 
                     <div class="address">
                         <h3>Address</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatibus quae ea nihil 
-                            tempora nemo voluptatum praesentium soluta nam?</p>
+                        <p>Get in touch with us and tell us how we can help you.</p>
                     </div>
                     <div class="contact-details">
                         <ul class="fa-ul">
-                            <li><span class="fa-li"><i class="fas fa-mobile-alt"></i></span>+1 555 555 555</li>
-                            <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>272 Private 7530 Rd, Call, TX, 75933</li>
-                            <li><span class="fa-li"><i class="fas fa-paper-plane"></i></span>info@yourcompany.com</li>
+                            <li><span class="fa-li"><i class="fas fa-mobile-alt"></i></span>+63 0926 1576 156</li>
+                            <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>6000 Gov. M. Cuenco Ave, Cebu City, 6000 Cebu</li>
+                            <li><span class="fa-li"><i class="fas fa-paper-plane"></i></span>legalizephilippines@gmail.com</li>
                         </ul>
                     </div>
 

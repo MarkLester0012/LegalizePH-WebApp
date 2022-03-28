@@ -167,7 +167,7 @@ h2.section-title-heading {
 }
 
 .image-box {
-    content:url('../img/phone-img.png');
+    content:url('../img/phone-img2.png');
     object-fit: cover;
 }
 
@@ -238,7 +238,7 @@ h2.section-title-heading {
 }
 
 #features .device {
-    content:url('../img/device2.png');
+    content:url('../img/featured-photo.png');
 }
 
 #features .feature1{
