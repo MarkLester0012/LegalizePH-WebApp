@@ -168,8 +168,9 @@ h2.section-title-heading {
 }
 
 .image-box {
-    content:url('../img/phone-img2.png');
+    content:url('../img/phone-sideways.png');
     object-fit: cover;
+    margin-left: 120px;
 }
 
 /* ============ ABOUT =============== */
