@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link home" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#about">about</a>
@@ -46,7 +46,7 @@
                         <p>Find the best legal service providers near you with just few easy steps.</p>
                         <div class="hero-buttons">
                             <a href="#" class="btn btn-outline-primary btn-white">register</a>
-                            <a href="#" class="btn btn-outline-primary btn-white">try now</a>
+                            <a href="#" class="btn btn-outline-primary btn-white2">try now</a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -73,19 +73,19 @@
             <div class="row justify-content-center text-center mt-5">
 
                 <div class="col-md-4">
-                    <i class="fas fa-search fa-3x mb-2"></i>
-                    <h3>Filter-based Search Function</h3>
-                    <p>Optimize your searches by using the filter function to suit your preferences.</p>
-                </div>
-                <div class="col-md-4">
                     <i class="fas fa-gavel fa-3x mb-2"></i>
-                    <h3>appointment manager</h3><br>
-                    <p>Manage your appointments easier by using the appointment manager</p>
+                    <h3>legal services in your hands</h3>
+                    <p>Find the best lawyer that offers the legal services you need by using LegalizePH web and mobile application.</p>
                 </div>
                 <div class="col-md-4">
                     <i class="fas fa-calendar fa-3x mb-2"></i>
-                    <h3>Legal Services On-Demand</h3>
-                    <p>Find the best lawyers that offers the legal services that you need.</p>
+                    <h3>manage your appointments</h3>
+                    <p>Manage your schedules and requirements easier by using the LegalizePH appointment manager.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-search fa-3x mb-2"></i>
+                    <h3>filter-based search funcion</h3>
+                    <p>Optimize your searches by using the LegalizePH filter feature to find the lawyer that suit your preferences.</p>
                 </div>
 
             </div>
@@ -104,43 +104,33 @@
             </div>
 
             <div class="row mt-5">
-
                 <div class="col-md-4">              
-                    <div class="feature-block feature1">
-                        <div data-aos="fade-up">
-
-
+                    <div class="feature-block">
+                        <img class = "feature1">
                         <h3 class="text-center">mobile friendly</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
-                            architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
-                            delectus, velit, temporibus consequatur voluptatibus a.</p>
-                            </div>
+                        <p>LegalizePH is not only available through the web but also on mobile phones. More features are added in the 
+                            mobile app to help users interact with their chosen lawyers with more convenience..</p>              
                     </div>    
                     <div class="feature-block mt-5">
-                        <img src="assets/img/featureicon2.png" alt="">
-                        <h3 class="text-center">security</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
-                            architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
-                            delectus, velit, temporibus consequatur voluptatibus a.</p>
+                        <img class = "feature2">
+                        <h3 class="text-center">appointment manager</h3>
+                        <p>Manage appointments with your lawyer using the appointment manager feature. This feature provides its 
+                            users with schedules and notifications provided by their chosen lawyer.</p>
                     </div>
                 </div>
                 <div class="col-md-4 device">
-                    <img src="assets/img/feature-device.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-4">
                     <div class="feature-block">
-                        <img src="assets/img/featureicon3.png" alt="">
-                        <h3 class="text-center">24/7 support</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
-                            architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
-                            delectus, velit, temporibus consequatur voluptatibus a.</p>
+                        <img class = "feature3">
+                        <h3 class="text-center">in-app messaging</h3>
+                        <p>The mobile application features in-app messaging to improve the communication between the users and their chosen lawyer.</p><br><br>
                     </div>
                     <div class="feature-block mt-5">
-                        <img src="assets/img/featureicon4.png" alt="">
-                        <h3 class="text-center">beautiful design</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
-                            architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
-                            delectus, velit, temporibus consequatur voluptatibus a.</p>
+                        <img class = "feature4">
+                        <h3 class="text-center">map api</h3>
+                        <p>Find the directions to your lawyer a lot easier with the embedded google map in the mobile application. Directions 
+                            to and from your location is shown to guide you to your lawyer.</p>
                     </div>
                 </div>
 
@@ -158,12 +148,9 @@
 
                 <div class="row download-title justify-content-center">
                     <h2>download our app</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum asperiores deleniti. Facere, possimus 
-                        architecto necessitatibus alias veritatis aperiam eius quibusdam vel ducimus fuga 
-                        delectus, velit, temporibus consequatur voluptatibus a.</p>
+                    <p>Download our application now and let us help you find the right lawyer to defend you. Enjoy more features within our application including appointment manager, in-app messaging, and many more.</p>
                     <div class="download-btns">
-                        <a href="#"><i class="fab fa-apple"></i> App Store</a>
-                        <a href="#"><i class="fab fa-android"></i> Play Store</a>
+                        <a href="https://youtu.be/pPg4rHU2YKE?t=36" target="_blank"><i class="fab fa-android"></i> Play Store</a>
                     </div>
                 </div>
 
@@ -178,7 +165,7 @@
         <div class="container">
 
             <div class="row section-title justify-content-center">
-                <h2 class="section-title-heading">pricing plans</h2>
+                <h2 class="section-title-heading">upgrade plans</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -187,20 +174,20 @@
 
                     <div class="table-header text-center">
                         <h4>basic</h4>
-                        <p>$25/month</p>
+                        <p>₱100/month</p>
                     </div>
 
                     <div class="table-content">
                         <ul>
-                            <li>free support</li>
-                            <li>20gb storage</li>
-                            <li>2 users</li>
-                            <li>2 email accounts</li>
+                            <li>lawyer account</li>
+                            <li>up to 5 services </li>
+                            <li>up to 3 specialized cases</li>
+                            <li>5 active appointments</li>
                         </ul>
                     </div>
 
                     <div class="table-footer text-center">
-                        <a href="#">order now</a>
+                        <a href="#">upgrade now</a>
                     </div>
 
                 </div>
@@ -209,16 +196,16 @@
 
                     <div class="table-header text-center">
                         <h4>medium</h4>
-                        <p>$45/month</p>
-                        <img src="assets/img/sale-badge.png" alt="">
+                        <p>₱140/month</p>
+                        <img class = "sale">
                     </div>
 
                     <div class="table-content">
                         <ul>
-                            <li>free support</li>
-                            <li>20gb storage</li>
-                            <li>2 users</li>
-                            <li>2 email accounts</li>
+                            <li>lawyer account</li>
+                            <li>up to 10 services</li>
+                            <li>up to 8 specialized cases</li>
+                            <li>10 active appointments</li>
                         </ul>
                     </div>
 
@@ -232,15 +219,15 @@
 
                     <div class="table-header text-center">
                         <h4>large</h4>
-                        <p>$125/month</p>
+                        <p>₱200/month</p>
                     </div>
 
                     <div class="table-content">
                         <ul>
-                            <li>free support</li>
-                            <li>20gb storage</li>
-                            <li>2 users</li>
-                            <li>2 email accounts</li>
+                            <li>lawyer account</li>
+                            <li>up to 20 serices</li>
+                            <li>up to 12 specialized cases</li>
+                            <li>20 active appointments</li>
                         </ul>
                     </div>
 
@@ -291,14 +278,13 @@
 
                     <div class="address">
                         <h3>Address</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatibus quae ea nihil 
-                            tempora nemo voluptatum praesentium soluta nam?</p>
+                        <p>Get in touch with us and tell us how we can help you.</p>
                     </div>
                     <div class="contact-details">
                         <ul class="fa-ul">
-                            <li><span class="fa-li"><i class="fas fa-mobile-alt"></i></span>+1 555 555 555</li>
-                            <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>272 Private 7530 Rd, Call, TX, 75933</li>
-                            <li><span class="fa-li"><i class="fas fa-paper-plane"></i></span>info@yourcompany.com</li>
+                            <li><span class="fa-li"><i class="fas fa-mobile-alt"></i></span>+63 0926 1576 156</li>
+                            <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>6000 Gov. M. Cuenco Ave, Cebu City, 6000 Cebu</li>
+                            <li><span class="fa-li"><i class="fas fa-paper-plane"></i></span>legalizephilippines@gmail.com</li>
                         </ul>
                     </div>
 
@@ -319,7 +305,7 @@
             <div class="row d-flex flex-column align-items-center">
 
                 <div class="footer-logo">
-                    <img src="assets/img/logo.png" alt="">
+                    <img class="footer-logo">
                 </div>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook"></i></a>
